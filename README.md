@@ -1,5 +1,15 @@
 # PDF_Viewer
 
+
+#build.gradle(:app)
+```
+dependencies{
+ implementation project(":pdfViewer")
+}
+```
+
+
+#activity_main.xml
 ```
               <com.zapp.pdfviewer.PdfRendererView
                 android:id="@+id/iv_pdf"
